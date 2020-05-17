@@ -5,51 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>webstudio</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
   </head>
 
   <body class="page">
-    <header>
-      <!--the first line of navigation-->
-      <nav>
-        <!--logo-->
-        <a href="./index.html" class="logo">
-          <span class="web logo">Web</span> Studio
-         </a>
-        <!--navigation-->
-        <ul class="site-nav list">
-          <li>
-            <a href="" class="link current">Студия</a>
-          </li>
-          <li>
-            <a href="./portfolio.html">Портфолио</a>
-          </li>
-          <li>
-            <a href="">Контакты</a>
-          </li>
-        </ul>
-      </nav>
+    <div class="container">
+      <header class="header-box">
+<!--the first line of navigation-->
+        <nav class="navigation">
 
-      <!--Contacts-->
-      <address>
-        <ul class="contacts list">
-          <li>
-            <a href="mailto:info@devstudio.com">
-              <img src="./images/envelope.svg" alt="" />
-              info@devstudio.com
-            </a>
-          </li>
-          <li>
-            <a href="tel:380961111111">
-              <img src="./images/smartphone.svg" alt="" />
-              +38 096 111 11 11
-            </a>
-          </li>
-        </ul>
-      </address>
-    </header>
+<!--logo-->
+          <div class="logo">
+            <a href="./index.html">
+              <span class="web">Web</span> Studio
+             </a>
+          </div>
+<!--navigation-->
+          <ul class="site-nav list">
+            <li class="item">
+              <a href="" class="link current">Студия</a>
+            </li>
+            <li class="item">
+              <a href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="item">
+              <a href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+  
+<!--Contacts-->
+        <address class="address">
+          <ul class="contacts list">
+            <li class="item">
+              <a href="mailto:info@devstudio.com">
+                info@devstudio.com
+              </a>
+            </li>
+            <li class="item">
+              <a href="tel:380961111111">
+                +38 096 111 11 11
+              </a>
+            </li>
+          </ul>
+        </address>
+      </header>
+    </div>
     <main>
-      <!--hero-->
+<!--hero-->
       <section class="hero">
         <h1 class="hero-title">
           эффективные решения
@@ -59,62 +63,66 @@
         <a href="" class="blue button">Заказать услугу</a>
       </section>
 
-      <!--advatages-->
-      <section class="section">
-        <h2 class="title">преимущества*</h2>
-        <ul class="advatages list">
-          <li>
-            <img
-              src="./images/advantages/antenna.svg"
-              alt="спутникрвая антена"
-              width="70"
-            />
-            <h3 class="advantage-item-name">Внимание к деталям</h3>
-            <p class="advantage-description">
-              Идейные соображения, а также начало повседневной работы по
-              формированию позиции.
-            </p>
-          </li>
-          <li>
-            <img src="./images/advantages/clock.svg" alt="часы" width="70" />
-            <h3 class="advantage-item-name">Пунктуальность</h3>
-            <p class="advantage-description">
-              Задача организации, в особенности же рамки и место обучения кадров
-              влечет за собой.
-            </p>
-          </li>
-          <li>
-            <img
-              src="./images/advantages/diagram.svg"
-              alt="компьютер с диаграммой"
-              width="70"
-            />
-            <h3 class="advantage-item-name">Планирование</h3>
-            <p class="advantage-description">
-              Равным образом консультация с широким активом в значительной
-              степени обуславливает.
-            </p>
-          </li>
-          <li>
-            <img
-              src="./images/advantages/astronaut.svg"
-              alt="космонавт в космосе"
-              width="70"
-            />
-            <h3 class="advantage-item-name">Современные технологии</h3>
-            <p class="advantage-description">
-              Значимость этих проблем настолько очевидна, что реализация
-              плановых заданий.
-            </p>
-          </li>
-        </ul>
+<!--advatages-->
+      <section class="section no-bottompadding">
+        <div class="container">
+          <!--<h2 class="title">преимущества*</h2>-->
+          <ul class="advantages list">
+            <li class="item">
+              <img
+                src="./images/advantages/antenna.svg"
+                alt="спутникрвая антена"
+                width="70"
+              />
+              <h3 class="advantage-item-name">Внимание к деталям</h3>
+              <p class="advantage-description">
+                Идейные соображения, а также начало повседневной работы по
+                формированию позиции.
+              </p>
+            </li>
+            <li class="item">
+              <img src="./images/advantages/clock.svg" alt="часы" width="70" />
+              <h3 class="advantage-item-name">Пунктуальность</h3>
+              <p class="advantage-description">
+                Задача организации, в особенности же рамки и место обучения кадров
+                влечет за собой.
+              </p>
+            </li>
+            <li class="item">
+              <img
+                src="./images/advantages/diagram.svg"
+                alt="компьютер с диаграммой"
+                width="70"
+              />
+              <h3 class="advantage-item-name">Планирование</h3>
+              <p class="advantage-description">
+                Равным образом консультация с широким активом в значительной
+                степени обуславливает.
+              </p>
+            </li>
+            <li class="item">
+              <img
+                src="./images/advantages/astronaut.svg"
+                alt="космонавт в космосе"
+                width="70"
+              />
+              <h3 class="advantage-item-name">Современные технологии</h3>
+              <p class="advantage-description">
+                Значимость этих проблем настолько очевидна, что реализация
+                плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
+       
       </section>
 
-      <!--specializing-->
-      <section class="specializing section">
+<!--specializing-->
+      <section class="section">
+       <div class="container">
         <h2 class="title">Чем мы занимаемся</h2>
         <ul class="specializing list">
-          <li>
+          <li class="item">
             <img
               src="./images/computer.png"
               alt="ноутбук, руки на клавиатуре"
@@ -123,23 +131,25 @@
             <a href="">Десктопные приложения</a>
           </li>
 
-          <li>
+          <li class="item">
             <img src="./images/smartphone.png" alt="смартфон" width="380" />
             <a href="">Мобильные приложения</a>
           </li>
 
-          <li>
+          <li class="item">
             <img src="./images/desktop.png" alt="десктоп" width="380" />
             <a href="">Дизайнерские решения</a>
           </li>
         </ul>
+       </div>
       </section>
 
-      <!--team-->
-      <section class="section">
+<!--team-->
+      <section class="section team">
+       <div class="container">
         <h2 class="title">Наша команда</h2>
-        <ul class="team list">
-          <li>
+        <ul class="team-list list">
+          <li class="member">
             <img
               src="./images/team/john.png"
               alt="рыжеволосый молодой парень с бородой. искренне улыбается"
@@ -162,7 +172,7 @@
               </li>
             </ul>
           </li>
-          <li>
+          <li class="member">
             <img
               src="./images/team/marta.png"
               alt="молодая длинноволосая девушка. улыбается и показыват жест класс"
@@ -185,7 +195,7 @@
               </li>
             </ul>
           </li>
-          <li>
+          <li class="member">
             <img
               src="./images/team/robert.png"
               alt="задумчивый парень"
@@ -208,7 +218,7 @@
               </li>
             </ul>
           </li>
-          <li>
+          <li class="member">
             <img
               src="./images/team/martin.png"
               alt="парень с широкой улыбкой"
@@ -232,9 +242,11 @@
             </ul>
           </li>
         </ul>
+       </div>
       </section>
-      <!--clients-->
+<!--clients-->
       <section class="section">
+       <div class="container">
         <h2 class="title">Постоянные клиенты</h2>
         <ul class="clients list">
           <li>
@@ -268,56 +280,64 @@
             </a>
           </li>
         </ul>
+       </div>
       </section>
     </main>
-    <footer class="footer">
-      <nav>
-        <!--logo-->
-        <a href="./index.html" class="logo">
-          <span class="web">Web</span> <span class="studio-footer">Studio</span>
-         </a>
-        </a>
-      </nav>
-      <address>г. Киев, пр-т Леси Украинки, 26</address>
-      <address>
-        <ul class="footer address list">
-          <li>
-            <a href="mailto:info@devstudio.com">
-              <img src="./images/envelope.svg" alt="" />
-              info@devstudio.com
-            </a>
-          </li>
-          <li>
-            <a href="tel:380961111111">
-              <img src="./images/smartphone.svg" alt="" />
-              +38 096 111 11 11
-            </a>
-          </li>
-        </ul>
-      </address>
-
-      <div>
-        <strong>присоединяйтесь</strong>
-        <ul class="footer social-networks list">
-          <li>
-            <a href="" aria-label="ссылка на Instagram">Instagram</a>
-          </li>
-          <li>
-            <a href="" aria-label="ссылка на Twitter">Twitter</a>
-          </li>
-          <li>
-            <a href="" aria-label="ссылка на Facebook">Facebook</a>
-          </li>
-          <li>
-            <a href="" aria-label="ссылка на LinkedIn">LinkedIn</a>
-          </li>
-        </ul>
-      </div>
-
-      <div>
-        <strong>подписаться на рассылку</strong>
-        <!--form-->
-        <a href="" class="blue button">Подписаться</a>
+<!--Footer-->
+    <footer class="footer-background">
+      <div class="container">
+        <div class="footer-content">
+          <div class="fist-column">
+            <nav class="footer-logo">
+              <!--logo-->
+              <a href="./index.html" class="logo">
+                <span class="web">Web</span> <span class="studio-footer">Studio</span>
+               </a>
+              </a>
+            </nav>
+            <address>г. Киев, пр-т Леси Украинки, 26</address>
+            <address>
+              <ul class="footer address list">
+                <li>
+                  <a href="mailto:info@devstudio.com">
+                    <img src="./images/envelope.svg" alt="" />
+                    info@devstudio.com
+                  </a>
+                </li>
+                <li>
+                  <a href="tel:380961111111">
+                    <img src="./images/smartphone.svg" alt="" />
+                    +38 096 111 11 11
+                  </a>
+                </li>
+              </ul>
+            </address>
+          </div>
+    
+          <div class="join">
+            <strong>присоединяйтесь</strong>
+            <ul class="footer social-networks list">
+              <li>
+                <a href="" aria-label="ссылка на Instagram">Instagram</a>
+              </li>
+              <li>
+                <a href="" aria-label="ссылка на Twitter">Twitter</a>
+              </li>
+              <li>
+                <a href="" aria-label="ссылка на Facebook">Facebook</a>
+              </li>
+              <li>
+                <a href="" aria-label="ссылка на LinkedIn">LinkedIn</a>
+              </li>
+            </ul>
+          </div>
+    
+          <div class="form">
+            <strong>подписаться на рассылку</strong>
+            <!--form-->
+            <a href="" class="blue button">Подписаться</a>
+          </div>
+        </div>
       </div>
 
       <p class="copyright">&#169;2020 | Developed by GoIT Students</p>
