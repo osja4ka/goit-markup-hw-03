@@ -23,13 +23,13 @@
           </div>
 <!--navigation-->
           <ul class="site-nav list">
-            <li class="item">
-              <a href="" class="link current">Студия</a>
+            <li class="site-nav-item">
+              <a href="./index.html" class="link current">Студия</a>
             </li>
-            <li class="item">
+            <li class="site-nav-item">
               <a href="./portfolio.html">Портфолио</a>
             </li>
-            <li class="item">
+            <li class="site-nav-item">
               <a href="">Контакты</a>
             </li>
           </ul>
@@ -64,11 +64,11 @@
       </section>
 
 <!--advatages-->
-      <section class="section no-bottompadding">
+      <section class="section liner">
         <div class="container">
-          <!--<h2 class="title">преимущества*</h2>-->
+          <!--<h2 class="advantages-title">преимущества*</h2>-->
           <ul class="advantages list">
-            <li class="item">
+            <li class="advantages-item">
               <img
                 src="./images/advantages/antenna.svg"
                 alt="спутникрвая антена"
@@ -80,7 +80,7 @@
                 формированию позиции.
               </p>
             </li>
-            <li class="item">
+            <li class="advantages-item">
               <img src="./images/advantages/clock.svg" alt="часы" width="70" />
               <h3 class="advantage-item-name">Пунктуальность</h3>
               <p class="advantage-description">
@@ -88,7 +88,7 @@
                 влечет за собой.
               </p>
             </li>
-            <li class="item">
+            <li class="advantages-item">
               <img
                 src="./images/advantages/diagram.svg"
                 alt="компьютер с диаграммой"
@@ -100,7 +100,7 @@
                 степени обуславливает.
               </p>
             </li>
-            <li class="item">
+            <li class="advantages-item">
               <img
                 src="./images/advantages/astronaut.svg"
                 alt="космонавт в космосе"
@@ -122,22 +122,26 @@
        <div class="container">
         <h2 class="title">Чем мы занимаемся</h2>
         <ul class="specializing list">
-          <li class="item">
+
+          <li class="specializing-item">
             <img
-              src="./images/computer.png"
+              src="./images/laptop.png"
               alt="ноутбук, руки на клавиатуре"
-              width="380"
-            />
+              width="370"/>
             <a href="">Десктопные приложения</a>
           </li>
 
-          <li class="item">
-            <img src="./images/smartphone.png" alt="смартфон" width="380" />
+          <li class="specializing-item">
+            <img src="./images/smartphone.png" 
+                 alt="смартфон"
+                 width="370"/>
             <a href="">Мобильные приложения</a>
           </li>
 
-          <li class="item">
-            <img src="./images/desktop.png" alt="десктоп" width="380" />
+          <li class="specializing-item">
+            <img src="./images/desktop.png" 
+                 alt="десктоп"
+                 width="370"/>
             <a href="">Дизайнерские решения</a>
           </li>
         </ul>
@@ -151,9 +155,9 @@
         <ul class="team-list list">
           <li class="member">
             <img
-              src="./images/team/john.png"
+              src="./images/team/john.jpg"
               alt="рыжеволосый молодой парень с бородой. искренне улыбается"
-              width="278"
+              width="270"
             />
             <h3 class="member-name">John Smith</h3>
             <p>Product Designer</p>
@@ -174,9 +178,9 @@
           </li>
           <li class="member">
             <img
-              src="./images/team/marta.png"
+              src="./images/team/marta.jpg"
               alt="молодая длинноволосая девушка. улыбается и показыват жест класс"
-              width="278"
+              width="270"
             />
             <h3 class="member-name">Marta Stewart</h3>
             <p>Frontend Developer</p>
@@ -197,9 +201,9 @@
           </li>
           <li class="member">
             <img
-              src="./images/team/robert.png"
+              src="./images/team/robert.jpg"
               alt="задумчивый парень"
-              width="278"
+              width="270"
             />
             <h3 class="member-name">Robert Jakis</h3>
             <p>Marketing</p>
@@ -220,9 +224,9 @@
           </li>
           <li class="member">
             <img
-              src="./images/team/martin.png"
+              src="./images/team/martin.jpg"
               alt="парень с широкой улыбкой"
-              width="278"
+              width="270"
             />
             <h3 class="member-name">Martin Doe</h3>
             <p>UI Designer</p>
@@ -249,32 +253,32 @@
        <div class="container">
         <h2 class="title">Постоянные клиенты</h2>
         <ul class="clients list">
-          <li>
+          <li class="clients-item">
             <a href="">
               <img src="./images/dif_logos/logo1.svg" alt="" width="44" />
             </a>
           </li>
-          <li>
+          <li class="clients-item">
             <a href="">
               <img src="./images/dif_logos/logo2.svg" alt="" width="40" />
             </a>
           </li>
-          <li>
+          <li class="clients-item">
             <a href="">
               <img src="./images/dif_logos/logo3.svg" alt="" width="41" />
             </a>
           </li>
-          <li>
+          <li class="clients-item">
             <a href="">
               <img src="./images/dif_logos/logo4.svg" alt="" width="82" />
             </a>
           </li>
-          <li>
+          <li class="clients-item">
             <a href="">
               <img src="./images/dif_logos/logo5.svg" alt="" width="59" />
             </a>
           </li>
-          <li>
+          <li class="clients-item">
             <a href="">
               <img src="./images/dif_logos/logo6.svg" alt="" width="88" />
             </a>
@@ -295,18 +299,16 @@
                </a>
               </a>
             </nav>
-            <address>г. Киев, пр-т Леси Украинки, 26</address>
+            <address class="footer-address">г. Киев, пр-т Леси Украинки, 26</address>
             <address>
-              <ul class="footer address list">
+              <ul class="footer-address list">
                 <li>
                   <a href="mailto:info@devstudio.com">
-                    <img src="./images/envelope.svg" alt="" />
                     info@devstudio.com
                   </a>
                 </li>
                 <li>
                   <a href="tel:380961111111">
-                    <img src="./images/smartphone.svg" alt="" />
                     +38 096 111 11 11
                   </a>
                 </li>
@@ -340,7 +342,7 @@
         </div>
       </div>
 
-      <p class="copyright">&#169;2020 | Developed by GoIT Students</p>
+      <p class="copyright copyright-line">&#169;2020 | Developed by GoIT Students</p>
     </footer>
   </body>
 </html>
